@@ -8,7 +8,8 @@ TWILIO_PHONE_NUMBER = "1REDACTED"
 # list of one or more phone numbers to dial, in "+19732644210" format
 DIAL_NUMBERS = ["+1","+1", "+1", "+1"]
 
-# URL location of TwiML instructions for how to handle the phone call
+# URL location of TwiML instructions for how to handle the phone call. Below is an example URL. The real url you would be used is. within TwiML panel on twilio. 
+#I believe it's under the voice webhooks section.
 TWIML_INSTRUCTIONS_URL = \
   "http://static.fullstackpython.com/phone-calls-python.xml"
 
