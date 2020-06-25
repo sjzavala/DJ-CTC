@@ -26,6 +26,15 @@ source phoneapp/bin/activate
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Twilio. (Note you will have to create a free twilio account before this. You can create an account here [Twilio](https://www.twilio.com/try-twilio).
 
 ```bash
-pip install twilio==5.7.0
+pip install twilio
 ```
+
+```bash
+easy_install twilio
+````
+
+Once you have installed twilio and edited the script, you can run the script with the following command:
+```bash
+python phone_calls.py
+````
 
